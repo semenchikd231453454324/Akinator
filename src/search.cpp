@@ -28,6 +28,7 @@ int search(NodeStruct* root, const char ElemName[15])
     }
     
     Paths SearchPaths = {};
+    Paths A[10];
     
     searchElem(root, ElemName, &SearchPaths);
 
